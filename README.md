@@ -1,5 +1,7 @@
 # OneThink
-One Think based on Think PHP 3.2.3, just remove the articles, only keep RBAC module.
+One Think based on Think PHP 3.2.3, remove the articles, only keep RBAC module.
+
+引用Think PHP 3.2.3，并且删除OT对原有TP的库的引用。没有保留数据库备份等功能。
 
 使用须知：
 1、如果需要修改数据库配置相关信息，需要修改Common/Conf/db.php,以及User/Conf/config.php。可以根据环境变量设置不同的数据库切换。
