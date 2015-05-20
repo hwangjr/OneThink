@@ -1,0 +1,8 @@
+<select name="uid" id="uid" class="form-control">
+				<option value="">选择用户</option>
+				<volist name="members" id="member">
+				<option value="{$key}" 
+				<eq name="key" value="$vo.uid">selected="selected"</eq>
+				>{$member}</option>
+				</volist>
+				</select>

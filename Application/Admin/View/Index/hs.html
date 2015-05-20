@@ -1,0 +1,36 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div id="container" style="height: 400px; min-width: 310px; "></div>
+</block>
+
+<block name="script">
+<script type="text/javascript" src="__STATIC__/highstock/js/highstock.js"></script>
+<script type="text/javascript" src="__STATIC__/highstock/js/modules/exporting.js"></script>
+<script type="text/javascript">
+$(function () {
+
+    $.getJSON('{:U("Statistics/income")}', function (data) {
+        // Create the chart
+        $('#container').highcharts('StockChart', {
+            rangeSelector : {
+                selected : 1
+            },
+
+            title : {
+                text : '充值曲线图'
+            },
+
+            series : [{
+                name : '金额',
+                data : data,
+                tooltip: {
+                    valueDecimals: 2
+                }
+            }]
+        });
+    });
+
+});
+</script>
+</block>
