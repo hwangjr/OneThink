@@ -24,14 +24,4 @@ return array(
     
     
     'SMS_ERROR_CODE' => array( 	'SUCCESS' => '000000'),
-    
-    'SMS_CONFIG'	=> array(	'ACCOUNT_ID'	=> '8a48b5514800eb2801480b42fc2505e1',
-        'SMS_LIFETIME'  => 30*60,
-        'ACCOUNT_TOKEN'	=> '0b651d216526458998582593221228c0',
-        'APP_ID'		=> '8a48b551485af79401485d6d50af0090',
-        'SERVER_IP'		=> 'app.cloopen.com',
-        'SERVER_PORT'	=> '8883',
-        'SOFT_VERSION'	=> '2013-12-26', ),
-    
-    
 );
