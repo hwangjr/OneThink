@@ -1,4 +1,7 @@
-# OneThink
+OneThink
+--------
+**Deprecated Move This Project To [PHPKnife/OneThink](https://github.com/PHPKnife/OneThink)**
+
 One Think based on Think PHP 3.2.3, remove the articles, only keep RBAC module.
 
 引用Think PHP 3.2.3，并且删除OT对原有TP的库的引用。没有保留数据库备份等功能。
